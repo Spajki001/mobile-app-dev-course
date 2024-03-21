@@ -13,10 +13,10 @@
         android:layout_height="210dp"
         android:layout_marginStart="28dp"
         android:layout_marginBottom="28dp"
+        android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/linus_torvalds_2012"
-        android:importantForAccessibility="no" />
+        app:srcCompat="@drawable/linus_torvalds_2012" />
 
     <TextView
         android:id="@+id/textView2"
@@ -34,7 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="356dp"
+        android:layout_marginTop="316dp"
         android:text="Margaret Hamilton"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -78,7 +78,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="388dp"
+        android:layout_marginTop="356dp"
         android:text="17.08.1936."
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -89,7 +89,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginTop="392dp"
         android:text="Alive"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -121,14 +121,13 @@
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="273dp"
-        android:layout_marginEnd="28dp"
-        android:layout_marginBottom="248dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="271dp"
         android:importantForAccessibility="no"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
         app:srcCompat="@drawable/margaret_hamilton"
         tools:ignore="ImageContrastCheck" />
 
